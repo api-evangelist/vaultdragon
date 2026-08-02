@@ -1,8 +1,34 @@
 aid: vaultdragon
 name: VaultDragon
-description: VaultDragon is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  VaultDragon (Vault Dragon Pte Ltd) is a Singapore-based digital healthcare
+  company building end-to-end practice-management software for clinics and
+  medical providers across Southeast Asia and China. Its product suite includes
+  DragonHub, an end-to-end clinic-management platform covering appointment
+  scheduling, patient tracking, electronic health records, inventory and
+  invoicing; DragonCare, a patient-facing web app for self-booking, reminders
+  and access to medical history; DragonInsights, an on-demand business-
+  intelligence and analytics layer; and DragonLab, a laboratory information
+  system automating the workflow from sample receipt to report delivery.
+  VaultDragon serves 650+ healthcare providers across Singapore, China,
+  Indonesia, Thailand and Cambodia. The platform is delivered as a hosted SaaS
+  (hub.vaultdragon.com) backed by a private, authenticated internal API; the
+  company currently publishes no public developer portal, OpenAPI specification,
+  or client SDKs. Surfaced as a portfolio company of 500 Global and added to the
+  API Evangelist network for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/vaultdragon/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://vaultdragon.com/wp-content/uploads/2019/10/new_logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +37,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Practice Management
+- Electronic Health Records
+- Clinic Management
+- Laboratory Information System
+- SaaS
+- Singapore
+- Health IT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +57,22 @@ maintainers:
 common:
 - type: Website
   url: https://vaultdragon.com
+- type: About
+  url: https://vaultdragon.com/about-us/
+- type: Products
+  url: https://vaultdragon.com/products/
+- type: Blog
+  url: https://vaultdragon.com/news-room/
+- type: SignUp
+  url: https://vaultdragon.com/demo/
+- type: StatusPage
+  url: https://status.vaultdragon.com
+- type: GitHubOrganization
+  url: https://github.com/vaultdragon
+- type: DomainSecurity
+  url: security/vaultdragon-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
