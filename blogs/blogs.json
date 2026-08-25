@@ -3,19 +3,13 @@
   "feeds": [
     {
       "source": "https://vaultdragon.com/feed/",
-      "feed_url": "https://vaultdragon.com/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
+      "error": "URLError"
     },
     {
       "source": "https://vaultdragon.com/products/",
-      "feed_url": "https://vaultdragon.com/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "discovered"
+      "error": "URLError"
     }
   ],
   "post_count": 10,
-  "fetched": "2026-08-15T12:11:08Z"
+  "fetched": "2026-08-22T20:20:02Z"
 }
