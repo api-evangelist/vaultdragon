@@ -2,14 +2,10 @@
   "repo": "vaultdragon",
   "feeds": [
     {
-      "source": "https://vaultdragon.com/feed/",
-      "error": "URLError"
-    },
-    {
       "source": "https://vaultdragon.com/products/",
       "error": "URLError"
     }
   ],
   "post_count": 10,
-  "fetched": "2026-08-22T20:20:02Z"
+  "fetched": "2026-08-30T22:33:40Z"
 }
